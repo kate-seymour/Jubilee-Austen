@@ -1,0 +1,232 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url("../img/hero.png");
+    background-size: cover;
+}
+header h1 { 
+    padding: 45px 0 65px 25px;
+    font-family: Lora Bold;
+    color: #bbc085;
+}
+nav{
+    float:right;
+    padding: 75px 25px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 50px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #828282;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: black;
+}
+
+/***** ABOUT *****/
+#about .full-width {
+    padding: 80px 0;
+}
+#about h2 {
+    font-family: 'Lora', serif;    
+    font-size: 36px;
+    padding-left: 100px;
+    color: black;
+}
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/***** WORK *****/
+#work {
+    background:#f9ceb7;
+    text-align: center;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 195px;
+    margin: 0 auto;
+}
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+/***** CONTACT *****/
+#contact {
+    background: #ebebeb;
+}
+#contact .full-width{
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: SourceSansPro;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+
+/***** WORK PAGE *****/
+#work-header {
+    background: url("../img/computer.png");
+}
+#journey {
+    text-align: center;
+}
+#journey span {
+    color: #f16059;
+}
+#portfolio img {
+    width: 300px;
+}
+#portfolio p {
+    padding-right: 45px;
+}
+#work-footer {
+    background: #ebebeb;
+    clear: both;
+    height: 500px;
+}
+#work-footer .full-width{
+    padding: 110px 0;
+}
+#work-footer img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+#work-footer h2, #work-footer #email-header, #work-footer #socialmedia-header, #work-footer ul {
+    padding-left: 115px;
+}
+#work-footer #envelope {
+    padding: 0 10px 0 115px;
+}
+#work-footer h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+}
+#work-footer #email-header{
+    font-size: SourceSansPro;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+}
+#work-footer #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#work-footer a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#work-footer ul {
+    list-style: none;
+}
+#work-footer ul li {
+     display: inline-block;
+}
+#work-footer ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+
+/***** ABOUT PAGE *****/
+#about-header {
+    background: url("../img/kate-dance.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
